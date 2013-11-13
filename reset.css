@@ -52,7 +52,7 @@ button, input, select {
   vertical-align: middle;
 }
 [type="button"], [type="submit"],
-button, button * {
+button, button *, ::-webkit-file-upload-button {
   cursor: pointer;
   -webkit-appearance: none;
 }
