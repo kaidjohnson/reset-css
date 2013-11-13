@@ -13,18 +13,22 @@ tt, u, ul, var, video {
   vertical-align: baseline;
   font: inherit;
 }
+
 html {
   overflow-y: scroll;
   min-height: 100%;
 }
+
 body {
   font-size: 16px;
   line-height: 1;
   min-height: 100%;
 }
+
 ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
   &:before, &:after{
@@ -32,29 +36,38 @@ blockquote, q {
     content: none;
   }
 }
+
 ins {
   text-decoration: none;
 }
+
 del {
   text-decoration: line-through;
 }
+
 table { // Tables still need 'cellspacing="0"' in the markup.
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 textarea {
   resize: none;
   overflow: auto
 }
+
 button, input, select {
   line-height: 1;
   vertical-align: middle;
 }
+
 [type="button"], [type="submit"],
-button, button *, ::-webkit-file-upload-button {
+button, button *,
+::-webkit-file-upload-button {
   cursor: pointer;
+  -moz-appearance: none;
   -webkit-appearance: none;
 }
+
 [hidden] {
   display: none;
 }
@@ -65,14 +78,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 nav, section, summary {
   display: block;
 }
+
 address, cite, dfn, i, var {
   font-style: normal;
 }
+
 audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -83,6 +99,7 @@ audio:not([controls]) {
 img {
   -ms-interpolation-mode: bicubic;
 }
+
 svg:not(:root) {
   overflow: hidden;
 }

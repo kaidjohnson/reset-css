@@ -50,13 +50,14 @@ button, input, select
   vertical-align middle
 
 [type="button"], [type="submit"],
-button, button *, ::-webkit-file-upload-button
+button, button *,
+::-webkit-file-upload-button
   cursor pointer
+  -moz-appearance none
   -webkit-appearance none
 
 [hidden]
   display none
-
 
 // HTML5 Legacy Browser Support
 
@@ -76,7 +77,6 @@ audio:not([controls])
   display none
   height 0
 
-
 // Images
 
 img
@@ -84,7 +84,6 @@ img
 
 svg:not(:root)
   overflow hidden
-
 
 // Firefox
 
