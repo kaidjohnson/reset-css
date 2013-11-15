@@ -56,9 +56,6 @@ button, button *
   -moz-appearance none
   -webkit-appearance none
 
-::-webkit-file-upload-button
-  @extends button
-
 [hidden]
   display none
 
@@ -87,6 +84,11 @@ img
 
 svg:not(:root)
   overflow hidden
+
+// Webkit
+
+::-webkit-file-upload-button
+  @extends button
 
 // Firefox
 

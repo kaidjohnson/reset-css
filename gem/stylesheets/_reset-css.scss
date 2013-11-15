@@ -68,10 +68,6 @@ button, button * {
   -webkit-appearance: none;
 }
 
-::-webkit-file-upload-button {
-  @extend button;
-}
-
 [hidden] {
   display: none;
 }
@@ -106,6 +102,12 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
+}
+
+// Webkit
+
+::-webkit-file-upload-button {
+  @extend button;
 }
 
 // Firefox

@@ -70,11 +70,6 @@ button, button *{
   -webkit-appearance: none;
 }
 
-::-webkit-file-upload-button{
-  cursor: pointer;
-  -webkit-appearance: none;
-}
-
 [hidden] {
   display: none;
 }
@@ -109,6 +104,13 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
+}
+
+/* -- Webkit -- */
+
+::-webkit-file-upload-button{
+  cursor: pointer;
+  -webkit-appearance: none;
 }
 
 /* -- Firefox -- */
