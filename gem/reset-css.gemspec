@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/kaidjohnson/reset-css'
   s.rubyforge_project =
 
-  s.version     = '0.0.2'
-  s.date        = '2013-11-15'
+  s.version     = '0.0.3'
+  s.date        = '2013-11-19'
   s.license     = 'GPL-2'
 
   s.authors     = ['Kai Johnson']

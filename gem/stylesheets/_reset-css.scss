@@ -107,7 +107,8 @@ svg:not(:root) {
 // Webkit
 
 ::-webkit-file-upload-button {
-  @extend button;
+  cursor: pointer;
+  -webkit-appearance: none;
 }
 
 // Firefox
